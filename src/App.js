@@ -1,17 +1,16 @@
-import Amplify, { Auth, API } from 'aws-amplify';
-import { withAuthenticator } from 'aws-amplify-react';
-import React, { Component } from 'react';
-import awsconfig from './aws-exports';
-import '@aws-amplify/ui/dist/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-Amplify.configure(awsconfig);
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Your app here
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Hello from V2</h1>
+      </header>
     </div>
   );
 }
 
-export default withAuthenticator(App, true);
+export default App;
