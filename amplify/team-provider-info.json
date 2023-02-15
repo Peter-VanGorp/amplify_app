@@ -15,6 +15,9 @@
       "auth": {
         "myamplifyapp6a7df8fe": {},
         "userPoolGroups": {}
+      },
+      "api": {
+        "myamplifyapp": {}
       }
     }
   }
